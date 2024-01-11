@@ -1,0 +1,237 @@
+/* :root {
+  background: purple;
+}
+
+
+html {
+  max-width: 720px;
+  background: yellow;
+
+}
+
+.box {
+  background: #b3adad;
+}
+
+body {
+  background: rgb(246, 247, 244);
+  }
+
+h1,#user {
+  color:rgb(10, 217, 245);
+}
+
+h2,#user {
+  color: rgb(23, 245, 171);
+}
+
+*{
+  color: red;
+}
+
+
+
+
+#id > p {
+  color:chocolate;
+ }
+
+ h3, button.button {
+  color: rgb(35, 20, 243);
+ }
+
+.usсвer, #user {
+color: rgb(12, 48, 248);
+}
+
+footer > .user {
+  color: darkmagenta;
+}
+footer > h2 {
+  color:coral;
+}
+footer em  {
+  color:black;
+}
+footer div div  em,
+footer div
+{
+  color: rgb(241, 23, 212);
+}
+
+ h1 + p,
+ button,
+  p.user
+ {
+  color:rgb(156, 230, 19);
+}
+
+ p~strong {
+  background: rgb(8, 236, 198);
+}
+h1>strong {
+  color:rgb(248, 27, 149);
+}
+
+
+div ~ * em
+{
+  background:rgb(3, 20, 114);
+} */
+
+
+.card-dark {
+  background: rgb(223, 222, 221);
+}
+.item:first-child {
+  color: blue;
+}
+.child:first-child {
+  color: brown;
+}
+.item {
+  color: green;
+}
+
+.item:last-child {
+  color: yellow;
+}
+
+.child:only-child {
+  color: rgb(230, 67, 67);
+}
+
+b:first-of-type {
+  color: rgb(127, 219, 127);
+}
+
+
+.item:last-of-type {
+  color: rgb(10, 204, 194);
+}
+
+:nth-child(3) {
+  color: rgb(185, 131, 235);
+}
+.item:nth-last-child(3n+1) {
+  color: rgb(20, 15, 20)
+}
+p:not(s) {
+  color: brown;
+}
+p:empty {
+  height:10px;
+ background: blue; 
+}
+.input-dark {
+  background: rgb(190, 182, 183);
+}
+.input-dark[recuired] {
+  background: rgb(243, 7, 54);
+}
+.input-dark[type="number"] {
+  background: rgb(6, 247, 134);
+}
+.small-img[alt~='small'] {
+height: 500px;
+}
+a[rel~="external"] {
+  color:rgb(37, 182, 37);
+}
+button[class|="btn"] {
+  background:rgba(241, 241, 237, 0.932);
+}
+a[class*="btn"] {
+  background: rgb(250, 5, 46);
+}
+a[class$="atr"] {
+  background: rgb(250, 5, 189);
+}
+.btn::first-letter{
+  color:rgb(248, 244, 4);
+}
+.btn::first-line{
+  color:aquamarine;
+}
+p::first-line{
+  color:aqua;
+}
+.input-dark::placeholder{
+  color: green;
+  background: blue;
+}
+.big-text::before {
+  content: '2525252bbbbb';
+  color:rgb(146, 11, 146);
+}
+.big-text::after {
+  content: 'hggyrftyrtf67687';
+  color:rgb(6, 247, 134)
+}
+#test:target {
+  color: red;
+}
+.link:link {
+  color: red;
+}
+.link:hover {
+  color: green;
+}
+
+.link:active {
+  color: yellow;
+}
+.card:active {
+  background-color: rgb(222, 236, 17);
+}
+
+
+.card-dark:lang(fr)  > span::after{
+  content: ' (fr)';
+}
+input:hover {
+  background:azure;
+}
+button {
+  background-color: rgb(191, 247, 79);
+}
+button:enabled {
+  background-color: rgb(8, 236, 46);
+}
+button:disabled {
+  background-color: aqua;
+}
+.inp:read-write {
+  background-color: blue ;
+}
+.inp:read-only {
+  background-color: rgb(9, 133, 91);
+}
+input[type='checkbox']:checked ~ span {
+  background-color: red;
+}
+.valid:valid {
+  background-color: yellow;
+}
+.valid:invalid {
+  background-color: rgb(248, 187, 19);
+}
+
+.valid:optional {
+  background-color: rgb(105, 245, 198);
+}
+.number:focus {
+background-color: gray;
+}
+.number:out-of-range {
+  background-color: red;
+}
+.number:in-range {
+  background-color: rgb(64, 241, 64);
+}
+.number:invalid {
+  background-color: rgb(250, 227, 17);
+}
+input:placeholder-shown ~ span {
+  background: rgb(223, 131, 131);
+}
