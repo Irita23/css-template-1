@@ -1,0 +1,13 @@
+{{#with CardDark}}
+<div class="blok_articles">
+	{{#each articles}}
+	<div class="card_articles">
+		<img src="{{photo}}" alt="photo_id" class="card_id_img">
+		<div class="img_New">{{#if isNew}}New{{/if}}</div>
+		<h1 class="card_name">{{name}}</h1>
+		<p class="card_description">{{description}}</p>
+		<button class="card_button">Read All</button>
+	</div>
+	{{/each}}
+</div>
+{{/with}}
